@@ -1,0 +1,97 @@
+/* font integration */
+@font-face {
+  src: url(../fonts/roboto/Roboto-Bold.ttf);
+  font-family: Roboto-Bold;
+}
+@font-face {
+  src: url(../fonts/roboto/Roboto-Light.ttf);
+  font-family: Roboto-Light;
+}
+@font-face {
+  src: url(../fonts/roboto/Roboto-Medium.ttf);
+  font-family: Roboto-Medium;
+}
+@font-face {
+  src: url(../fonts/roboto/Roboto-Regular.ttf);
+  font-family: Roboto-Regular;
+}
+/* Common part starts */
+*{
+  margin: 0;
+  padding: 0;
+}
+.heading{
+  margin-bottom: 20px;
+  font-family: Roboto-Bold;
+  text-align: center;
+}
+/* Goolge map starts */
+.map{
+
+}
+
+.map .heading h1{
+
+}
+.map iframe{
+  width: 100%;
+  height: 300px;
+}
+/* Goolge map ends */
+
+/* Youtube video starts */
+.youtube .video{
+  text-align: center;
+}
+.youtube .video iframe{
+  width: 90%;
+  height: 350px;
+}
+/* Youtube video ends */
+
+/* Accordion section starts */
+.accordion_sec{
+  margin-bottom: 20px;
+}
+.accordion_sec .accordion button{
+  font-family: Roboto-Medium;
+  color: #000;
+}
+.accordion_sec .accordion .accordion-body{
+  font-family: Roboto-Regular;
+  color: #000;
+}
+.accordion_sec .accordion .accordion-body code{
+  font-family: Roboto-Regular;
+}
+/* Accordion section ends */
+
+/* Alert section startrs */
+.alert_sec{
+  margin-bottom: 20px;
+}
+/* Alert section ends */
+
+/* Badge section startrs */
+.badge_sec{
+  margin-bottom: 20px;
+}
+.badge_sec .row:nth-child(2){
+  text-align: center;
+}
+/* Badge section ends */
+
+/* Button group section starts*/
+.button_group{
+  margin-bottom: 20px;
+}
+.button_group .row:nth-child(2){
+  text-align: center;
+}
+/* Button group section ends */
+
+/* Card section starts */
+.card_sec{
+  margin-bottom: 20px;
+}
+/* Card section ends */
